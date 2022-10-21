@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 // Importações dos componentes
 import { MatButtonModule } from '@angular/material/button';
@@ -23,6 +24,7 @@ import { ContatoService } from './contato.service';
     MatButtonModule,
     MatToolbarModule,
     MatInputModule,
+    HttpClientModule,
     BrowserAnimationsModule
   ],
   providers: [
